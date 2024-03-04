@@ -146,10 +146,10 @@ const CardComp = () => {
                                                 <i className="fa-solid fa-star"></i>
                                             </div>
     
-                                            <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                                            <p className="card-text"><small className="text-body-secondary">Last updated Today</small></p>
     
                                             <div className="d-flex justify-content-end" id="btn-div">
-                                                <button className="btn btn-danger" id="btn" onClick={() => handleDelete(item.id)} >Remove from Cart</button>
+                                                <button className="btn btn-danger" id="btn" onClick={() => handleDelete(item.id)} >Remove</button>
                                             </div>
                                             <hr></hr>
                                         </div>
